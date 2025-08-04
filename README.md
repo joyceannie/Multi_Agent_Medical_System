@@ -21,29 +21,6 @@ This project is a modular FastAPI-based application designed to simulate a real-
 - 🔌 **FastAPI Backend**  
   Exposes an endpoint to upload both clinical text and medical images.
 
----
-
-## 📁 Project Structure
-
-Multi_Agent_Medical_System/
-├── agents
-|   ├── icd_agent.py
-|   ├── image_analyzer.py
-|   ├── soap_agent.py 
-├── app/
-|   |── app.py
-|   ├── config
-|       ├── config.py
-|   ├── experiments/
-|       ├── ICD10_extractions_from_clinical_notes.ipynb
-|       ├── image_analysis.ipynb
-|       ├── SOAP_generation_from_transcripts.ipynb
-|       ├── medical_transcript.png
-│   ├── services/agentic_workflow.py
-├── requirements.txt
-├── .env
-└── README.md
-
 
 ---
 

@@ -1,12 +1,18 @@
 # app/main.py
 
 from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from app.api.analyze import router as analyze_router
+import os
 
-app = FastAPI(
-    title="Multi-Agent Healthcare Assistant",
-    description="Accepts clinical text + image and processes via multiple agents.",
-    version="1.0.0"
-)
+app = FastAPI()
 
 app.include_router(analyze_router, prefix="/api")
+
+# Serve static HTML
+app.mount("/static", StaticFiles(directory="app/static"), name="static")
+
+@app.get("/")
+def serve_ui():
+    return FileResponse(os.path.join("app/static", "index.html"))
