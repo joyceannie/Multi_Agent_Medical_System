@@ -8,6 +8,7 @@ import requests
 from app.utils.logger import get_logger
 from app.utils.helper import clean_json_response
 import json
+from langsmith.run_helpers import traceable
 
 logger = get_logger(__name__)
 
@@ -16,6 +17,7 @@ class ImageAnalyzerAgent(BaseAgent):
         super().__init__(name="ImageAnalyzerAgent")
         self.model, self.processor = load_medgemma_model()
 
+    @traceable
     def respond(self, state: dict) -> str:
         image = state.payload["image"] if "image" in state.payload else None
         note = state.payload.get("note", None)

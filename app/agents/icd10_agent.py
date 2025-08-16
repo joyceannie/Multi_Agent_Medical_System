@@ -8,6 +8,8 @@ from app.utils.helper import clean_json_response
 import json
 from PIL import Image
 from typing import Optional
+from langsmith.run_helpers import traceable
+
 
 logger = get_logger(__name__)
 
@@ -16,6 +18,7 @@ class ICD10Agent(BaseAgent):
         super().__init__(name="ICD10Agent")
         self.model, self.processor = load_medgemma_model()
 
+    @traceable
     def respond(self, state: State) -> str:
 
         logger.info(f"Called respond with state: {state}")

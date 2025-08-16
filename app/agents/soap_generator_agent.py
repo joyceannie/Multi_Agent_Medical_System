@@ -8,6 +8,8 @@ from typing import Optional
 from app.utils.logger import get_logger
 from app.utils.helper import clean_json_response
 import json
+from langsmith.run_helpers import traceable
+
 
 logger = get_logger(__name__)
 
@@ -25,7 +27,8 @@ class SoapGeneratorAgent(BaseAgent):
         logger.info(f"Generating SOAP note for transcript: {transcript}")
         messages = build_soap_generator_prompt(transcript, image)
         return generate_response(self.model, self.processor, messages)
-    
+
+    @traceable
     def run(self, state: State) -> State:
         """
         Run the agent with the provided clinical note.
