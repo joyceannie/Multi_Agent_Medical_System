@@ -41,11 +41,14 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### 3. Setup environment variables
+### 3. Setup .env file in the root directory with the following format
+```bash
+LANGSMITH_TRACING="true"
+LANGSMITH_ENDPOINT="<your-langsmith-endpoint>"
+LANGSMITH_API_KEY="your-langsmith-api-key"
+LANGSMITH_PROJECT="your-langsmit-project"
 ```
-HF_TOKEN=your_huggingface_token
-MODEL_PATH_MEDGEMMA=google/medgemma-4b-it
-```
+
 
 ### 4. Run the app
 ```
