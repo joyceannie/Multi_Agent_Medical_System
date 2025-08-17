@@ -1,40 +1,60 @@
 # app/agents/router_agent.py
-
+from PIL import Image
+import base64
+import io
 from app.utils.logger import get_logger
 from app.graph.types import State
+from app.utils.prompt_builder import build_router_prompt
+from langsmith.run_helpers import traceable
+from app.agents.base_agent import BaseAgent
+from app.utils.predictor import generate_response
+from app.utils.model_loader import load_medgemma_model
+
 
 logger = get_logger(__name__)
 
-class RouterAgent:
+class RouterAgent(BaseAgent):
+    def __init__(self):
+        super().__init__(name="RouterAgent")
+        self.model, self.processor = load_medgemma_model()
 
+    @traceable
+    def respond(self, state: dict) -> str:
+        image = state.payload["image"] if "image" in state.payload else None
+        note = state.payload.get("note", None)
+        logger.info(f"Identifying next agent for image: {image} with note: {note}")
+        messages = build_router_prompt(note, image)
+        return generate_response(self.model, self.processor, messages)
+    
+    
     def run(self, state: State) -> State:
-        logger.info(f"Running RouterAgent with state: {state}")
-        payload = state.payload
+        """
+        Run the agent with the provided image.
+        """
+        logger.info(f"Running {self.name} with state: {state}")
+        response = self.respond(state).strip().lower()
+        logger.info("RouterAgent response: %s", response)
 
-        icd_terms = [
-            "icd10", "icd-10", "icd 10", "icd10 code",
-            "icd-10 code", "icd 10 code", "icd"
-        ]
-
-        note = payload.get("note") or payload.get("clinical_note")
-        image = payload.get("image")
-
-        if image:
-            state.type= "image_analysis"
-            state.payload = {
-                "image": image,
-                "clinical_note": note
-            }
-        elif note:
-            note_lower = note.lower()
-            if any(term in note_lower for term in icd_terms):
-                state.type = "icd10"
-                state.payload = {"clinical_note": note}
-            else:
-                state.type = "soap"
-                state.payload = {"transcript": note}
+        if response == "icd10":
+            state.payload["clinical_note"] = state.payload.get("note", "")
+            state.type = "icd10"
+        elif response == "soap":
+            state.payload["transcript"] = state.payload.get("note", "")
+            state.type = "soap"
+        elif response == "image_analysis":
+            state.type = "image_analysis"
+            state.payload["image"] = state.payload.get("image", None)
+            state.payload["clinical_note"] = state.payload.get("note", "")
         else:
-            state.error = "Unable to determine type from input"
+            logger.error(f"Unknown response from RouterAgent: {response}")
+            state.error = f"Unknown response from RouterAgent: {response}"
+            return state
+        return State(
+            type=state.type,
+            payload=state.payload,  # preserve existing payload
+            result=response,            # add this line (or appropriate value)
+            error=None              # no error
+        )
 
-        logger.info(f"RouterAgent determined next agent with state: {state}")
-        return state
+    
+

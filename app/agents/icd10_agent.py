@@ -38,7 +38,7 @@ class ICD10Agent(BaseAgent):
             parsed_result = clean_json_response(raw_result)
             cleaned_result = json.loads(parsed_result)
             
-            logger.info("Cleaned result: %s", cleaned_result)
+            logger.info("Returning from icd10 agent with : %s", cleaned_result)
             return State(
                 type="icd10",
                 payload=state.payload,  # preserve existing payload

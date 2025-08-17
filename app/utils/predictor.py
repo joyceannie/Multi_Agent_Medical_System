@@ -31,3 +31,4 @@ def generate_response(model, processor, messages):
     decoded = processor.decode(generation, skip_special_tokens=True)
     return decoded
 
+

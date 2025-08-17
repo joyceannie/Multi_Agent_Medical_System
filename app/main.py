@@ -17,8 +17,6 @@ LANGCHAIN_PROJECT = os.getenv("LANGCHAIN_PROJECT")
 
 app = FastAPI()
 langsmith_client = Client()
-
-
 app.include_router(analyze_router, prefix="/api")
 
 # Serve static HTML

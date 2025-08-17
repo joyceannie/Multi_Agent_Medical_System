@@ -3,6 +3,52 @@ import numpy as np
 from typing import Optional, List
 from app.utils.logger import get_logger
 
+logger = get_logger(__name__)
+
+def build_router_prompt(note: Optional[str], image: Optional[Image]) -> List:
+    """
+    Builds the prompt for the RouterAgent based on the provided note and image.
+    
+    Args:
+        note (Optional[str]): The clinical note to analyze.
+        image (Optional[Image]): The image to analyze.
+    
+    Returns:
+        List: A list of messages formatted for the model input.
+    """
+    image = Image.fromarray(np.zeros((224, 224, 3), dtype=np.uint8)) if image is None else image
+    system_prompt = """
+        You are a medical routing agent. Your task is to analyze the provided imputs
+        and determine the appropriate next step for processing the input. 
+        If there is a textual input, it can be a clinical note or a trnascript.
+        If there is an image input, it can be a medical image that needs to be analyzed.
+        Your task is to determine the type of input and route it to the appropriate agent.
+        There are three types of agents:
+        1. ICD10Agent: For clinical notes that require ICD-10 coding.
+        2. SOAPGeneratorAgent: For transcripts that require SOAP note generation.
+        3. ImageAnalyzerAgent: For medical images that require analysis.
+        If the input is a transcript, route it to the SOAPGeneratorAgent.
+        If the input is a clinical note, route it to the ICD10Agent.
+        If the input is a medical image, route it to the ImageAnalyzerAgent.
+        ONLY respond with one of: "icd10", "soap", "image_analysis"""
+
+    messages = [
+        {
+            "role": "system",
+            "content": [{"type": "text", "text":  system_prompt}]
+        },
+        {
+            "role": "user",
+            "content": [
+                {"type": "text", "text": note},
+                {"type": "image", "image": image}
+            ]
+        }
+    ]
+    return messages
+
+
+
 def build_icd10_prompt(clinical_note: str, image: Optional[Image]) -> list:
     """
     Builds the prompt for the ICD-10 coding agent based on the clinical note.
@@ -29,7 +75,10 @@ def build_icd10_prompt(clinical_note: str, image: Optional[Image]) -> list:
 
         Return ONLY valid JSON with double quotes, no extra text, no markdown.
         There should be no additional text or code fences. 
-        The response must be a valid JSON array of objects, each having code and description fields.
+        The response must be a valid JSON array of objects with double quotes around ALL property names and values.
+        If there is a code, make sure that there is a description for it. Don't return codes without descriptions.
+        Make sure that you are not repeating codes in the response.
+        Do not include any markdown, code fences, or extra text.
 
         
         Example:
