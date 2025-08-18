@@ -2,6 +2,7 @@
 
 This project is a modular FastAPI-based application designed to simulate a real-world clinical assistant powered by multiple AI agents. It supports clinical note analysis, medical image interpretation, and structured SOAP note generation — all powered by large language and vision models.
 
+![Multi-Agent Medical System](artifacts/multi-agent.png)
 ---
 
 ## 🚀 Features
