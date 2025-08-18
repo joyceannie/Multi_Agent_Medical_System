@@ -28,8 +28,8 @@ This project is a modular FastAPI-based application designed to simulate a real-
 
 Watch a quick demo of the Multi-Agent Medical System in action:
 
-<video src="artifacts/demo.mp4" controls width="600"></video>
-
+[<video src="artifacts/demo.mp4" controls width="600"></video>
+](https://github.com/user-attachments/assets/d5451b68-ee10-4f70-8876-39fdf3886654)
 
 ---
 
