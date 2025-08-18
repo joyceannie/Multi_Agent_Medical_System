@@ -23,6 +23,7 @@ This project is a modular FastAPI-based application designed to simulate a real-
   Exposes an endpoint to upload both clinical text and medical images.
 
 
+![Workflow Graph](artifacts/langgraph_workflow.png)
 ---
 
 ## 🎬 Demo
