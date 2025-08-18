@@ -22,8 +22,13 @@ This project is a modular FastAPI-based application designed to simulate a real-
 - 🔌 **FastAPI Backend**  
   Exposes an endpoint to upload both clinical text and medical images.
 
+The user input goes through the router agent. The router agent analyzes the input, and routes the input to either icd10 code generation agent, soap generation agent or image analysis agent.
+Here is an architecture diagram:
 
 ![Workflow Graph](artifacts/langgraph_workflow.png)
+
+
+
 ---
 
 ## 🎬 Demo
@@ -32,6 +37,11 @@ Watch a quick demo of the Multi-Agent Medical System in action:
 
 [<video src="artifacts/demo.mp4" controls width="600"></video>
 ](https://github.com/user-attachments/assets/d5451b68-ee10-4f70-8876-39fdf3886654)
+
+
+The app is monitored using LangSmith.
+
+![Langgraph Runs](artifacts/runs.png)
 
 ---
 
