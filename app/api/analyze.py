@@ -64,12 +64,12 @@ async def analyze(note: str = Form(None), image: UploadFile = File(None)):
             return ICD10Response(agent="icd10", result=codes)
 
         elif output.type == "soap":
-            # Example output.result expected: {"Subjective": "...", "Objective": "...", "Assessment": "...", "Procedure": "..."}
+            # Example output.result expected: {"Subjective": "...", "Objective": "...", "Assessment": "...", "Plan": "..."}
             soap_note = SOAPNote(
                 Subjective=output.result.get("Subjective", ""),
                 Objective=output.result.get("Objective", ""),
                 Assessment=output.result.get("Assessment", ""),
-                Procedure=output.result.get("Procedure", "")
+                Plan=output.result.get("Plan", "")
             )
             return SOAPResponse(agent="soap", result=soap_note)
 

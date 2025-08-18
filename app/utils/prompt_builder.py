@@ -22,12 +22,12 @@ def build_router_prompt(note: Optional[str], image: Optional[Image]) -> List:
     prompt = f"""
         You are a medical routing agent. Your task is to analyze the provided imputs
         and determine the appropriate next step for processing the input. 
-        If there is a textual input, it can be a clinical note or a trnascript.
+        If there is a textual input, it can be a clinical note or a transcript.
         If there is an image input, it can be a medical image that needs to be analyzed.
         Your task is to determine the type of input and route it to the appropriate agent.
         There are three types of agents:
-        1. ICD10Agent: For clinical notes that require ICD-10 coding.
-        2. SOAPGeneratorAgent: For transcripts that require SOAP note generation.
+        1. SOAPGeneratorAgent: For transcripts or clinical conversation between 2 parties, use SOAP note generation.
+        2. ICD10Agent: For clinical notes, use ICD-10 coding.
         3. ImageAnalyzerAgent: For medical images that require analysis.
         If the input is a transcript, route it to the SOAPGeneratorAgent.
         If the input is a clinical note, route it to the ICD10Agent.
@@ -70,6 +70,7 @@ def build_icd10_prompt(clinical_note: str, image: Optional[Image]) -> list:
         There should be no additional text or code fences. 
         The response must be a valid JSON array of objects with double quotes around ALL property names and values.
         If there is a code, make sure that there is a description for it. Don't return codes without descriptions.
+        Don't repeat codes that are very similar, only return the most relevant one.
         Make sure that you are not repeating codes in the response.
         Do not include any markdown, code fences, or extra text.
 
@@ -180,7 +181,7 @@ def build_soap_generator_prompt(transcript: str, image: Optional[Image]) -> list
     "Subjective": "...",
     "Objective": "...",
     "Assessment": "...",
-    "Procedure": "..."
+    "Plan": "..."
     }}
 
     Each field should contain a concise summary relevant to that section.

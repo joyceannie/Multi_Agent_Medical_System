@@ -14,7 +14,7 @@ class SOAPNote(BaseModel):
     Subjective: str
     Objective: str
     Assessment: str
-    Procedure: str
+    Plan: str
 
 class SOAPResponse(BaseModel):
     agent: Literal["soap"]

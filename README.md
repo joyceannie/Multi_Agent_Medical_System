@@ -24,6 +24,15 @@ This project is a modular FastAPI-based application designed to simulate a real-
 
 ---
 
+## 🎬 Demo
+
+Watch a quick demo of the Multi-Agent Medical System in action:
+
+<video src="artifacts/demo.mov" controls width="600"></video>
+
+
+---
+
 ## 📦 Installation
 
 ### 1. Clone the repo
