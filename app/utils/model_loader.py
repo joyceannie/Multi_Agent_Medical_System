@@ -1,5 +1,5 @@
-import torch
-from transformers import AutoModelForImageTextToText, AutoProcessor
+from mlx_vlm import load
+from mlx_vlm.utils import load_config
 from app.config.config import config
 from app.utils.logger import get_logger
 
@@ -7,17 +7,14 @@ logger = get_logger(__name__)
 
 _model = None
 _processor = None
+_config = None
 
 def load_medgemma_model():
-    global _model, _processor
+    global _model, _processor, _config
 
     if _model is None or _processor is None:
-        logger.info("[INFO] Loading MedGemma model and processor...")
-        _model = AutoModelForImageTextToText.from_pretrained(
-            config.MODEL_ID,
-            torch_dtype=config.TORCH_DTYPE,
-            device_map=config.DEVICE_MAP,
-        )
-        _processor = AutoProcessor.from_pretrained(config.MODEL_ID)
+        logger.info("[INFO] Loading {config.MODEL_ID}...")
+        _model, _processor = load(config.MODEL_ID)
+        _config = load_config(config.MODEL_ID)
 
-    return _model, _processor
+    return _model, _processor, _config

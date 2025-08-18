@@ -1,6 +1,7 @@
 from PIL import Image
 import numpy as np
-from typing import Optional, List
+from typing import Optional, List, Any
+from mlx_vlm.prompt_utils import apply_chat_template
 from app.utils.logger import get_logger
 
 logger = get_logger(__name__)
@@ -16,36 +17,28 @@ def build_router_prompt(note: Optional[str], image: Optional[Image]) -> List:
     Returns:
         List: A list of messages formatted for the model input.
     """
+    logger.info(f"Building router prompt with note: {note} and image: {image}")
     image = Image.fromarray(np.zeros((224, 224, 3), dtype=np.uint8)) if image is None else image
-    system_prompt = """
+    prompt = f"""
         You are a medical routing agent. Your task is to analyze the provided imputs
         and determine the appropriate next step for processing the input. 
-        If there is a textual input, it can be a clinical note or a trnascript.
+        If there is a textual input, it can be a clinical note or a transcript.
         If there is an image input, it can be a medical image that needs to be analyzed.
         Your task is to determine the type of input and route it to the appropriate agent.
         There are three types of agents:
-        1. ICD10Agent: For clinical notes that require ICD-10 coding.
-        2. SOAPGeneratorAgent: For transcripts that require SOAP note generation.
+        1. SOAPGeneratorAgent: For transcripts or clinical conversation between 2 parties, use SOAP note generation.
+        2. ICD10Agent: For clinical notes, use ICD-10 coding.
         3. ImageAnalyzerAgent: For medical images that require analysis.
         If the input is a transcript, route it to the SOAPGeneratorAgent.
         If the input is a clinical note, route it to the ICD10Agent.
         If the input is a medical image, route it to the ImageAnalyzerAgent.
-        ONLY respond with one of: "icd10", "soap", "image_analysis"""
+        ONLY respond with one of: "icd10", "soap", "image_analysis.
+        
+        Here is the input you need to analyze:
+        text: {note}
+        image: {image if image else "No image provided"}"""
 
-    messages = [
-        {
-            "role": "system",
-            "content": [{"type": "text", "text":  system_prompt}]
-        },
-        {
-            "role": "user",
-            "content": [
-                {"type": "text", "text": note},
-                {"type": "image", "image": image}
-            ]
-        }
-    ]
-    return messages
+    return prompt
 
 
 
@@ -60,7 +53,7 @@ def build_icd10_prompt(clinical_note: str, image: Optional[Image]) -> list:
         list: A list of messages formatted for the model input.
     """
     image = Image.fromarray(np.zeros((224, 224, 3), dtype=np.uint8)) if image is None else image
-    system_prompt ="""
+    prompt =f"""
         You are an expert clinical coder. From the following medical note, 
         identify the most relevant ICD-10 codes:
 
@@ -77,33 +70,23 @@ def build_icd10_prompt(clinical_note: str, image: Optional[Image]) -> list:
         There should be no additional text or code fences. 
         The response must be a valid JSON array of objects with double quotes around ALL property names and values.
         If there is a code, make sure that there is a description for it. Don't return codes without descriptions.
+        Don't repeat codes that are very similar, only return the most relevant one.
         Make sure that you are not repeating codes in the response.
         Do not include any markdown, code fences, or extra text.
 
         
         Example:
         [
-        {"code": "XXX", "description": "YYYY"},
-        {"code": "XXX", "description": "YYYY"}
+        {{"code": "XXX", "description": "YYYY"}},
+        {{"code": "XXX", "description": "YYYY"}}
         ]
 
+        Here is the clinical note you need to analyze:
+        {clinical_note}
+        Image: {image if image else "No image provided"}
 
     """
-
-    messages = [
-        {
-            "role": "system",
-            "content": [{"type": "text", "text":  system_prompt}]
-        },
-        {
-            "role": "user",
-            "content": [
-                {"type": "text", "text": clinical_note},
-                {"type": "image", "image": image}
-            ]
-        }
-    ]
-    return messages
+    return prompt
 
 def build_image_analyzer_prompt(image: Image, question: str = None) -> list:
     """
@@ -115,7 +98,7 @@ def build_image_analyzer_prompt(image: Image, question: str = None) -> list:
     Returns:
         list: A list of messages formatted for the model input.
     """
-    system_prompt = f"""
+    prompt = f"""
         You are an expert radiologist and you are provided with an image of a medical condition.
         Analyze the image and provide a detailed description of the findings,
         including any abnormalities or notable features. If the user provides any question about the image,
@@ -140,23 +123,12 @@ def build_image_analyzer_prompt(image: Image, question: str = None) -> list:
         "recommendations": "Clinical correlation recommended.",
         "answer_to_user_question": "The image shows no signs of acute stroke."
     
+    Here is the image you need to analyze:
+        {image if image else "No image provided."}
+        Question: {question if question else "No specific question provided."}
 
     """
-
-    messages = [
-        {
-            "role": "system",
-            "content": [{"type": "text", "text":  system_prompt}]
-        },
-        {
-            "role": "user",
-            "content": [
-                {"type": "image", "image": image},
-                {"type": "text", "text": question if question else "No specific question provided."}
-            ]
-        }
-    ]
-    return messages
+    return prompt
 
 def build_soap_generator_prompt(transcript: str, image: Optional[Image]) -> list:
     """
@@ -169,7 +141,7 @@ def build_soap_generator_prompt(transcript: str, image: Optional[Image]) -> list
         list: A list of messages formatted for the model input.
     """
     image = Image.fromarray(np.zeros((224, 224, 3), dtype=np.uint8)) if image is None else image
-    system_prompt = """
+    prompt = f"""
     You are a clinical documentation assistant. Your task is to read medical 
     transcripts (dialogues between clinicians and patients) and convert them 
     into structured clinical notes using the SOAP format.
@@ -205,12 +177,12 @@ def build_soap_generator_prompt(transcript: str, image: Optional[Image]) -> list
 
     You shoud return a JSON object with exactly the following fields:
 
-    {
+    {{
     "Subjective": "...",
     "Objective": "...",
     "Assessment": "...",
-    "Procedure": "..."
-    }
+    "Plan": "..."
+    }}
 
     Each field should contain a concise summary relevant to that section.
 
@@ -219,18 +191,8 @@ def build_soap_generator_prompt(transcript: str, image: Optional[Image]) -> list
     Here is the transcript from a medical record file from which you will be
     asked to extract relevant SOAP information:
 
+    {transcript}
+    Image: {image if image else "No image provided."}
+
     """
-    messages = [
-        {
-            "role": "system",
-            "content": [{"type": "text", "text":  system_prompt}]
-        },
-        {
-            "role": "user",
-            "content": [
-                {"type": "text", "text": transcript},
-                {"type": "image", "image": image}
-            ]
-        }
-    ]
-    return messages
+    return prompt
