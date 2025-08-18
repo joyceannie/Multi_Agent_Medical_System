@@ -23,11 +23,13 @@ This project is a modular FastAPI-based application designed to simulate a real-
   Exposes an endpoint to upload both clinical text and medical images.
 
 The user input goes through the router agent. The router agent analyzes the input, and routes the input to either icd10 code generation agent, soap generation agent or image analysis agent.
+
+All the agents use MedGemma model as the LLM. The LLM is run locally. In order to reduce the latency of the app, a quantized model is used. 
+
+
 Here is an architecture diagram:
 
 ![Workflow Graph](artifacts/langgraph_workflow.png)
-
-
 
 ---
 
@@ -39,9 +41,19 @@ Watch a quick demo of the Multi-Agent Medical System in action:
 ](https://github.com/user-attachments/assets/d5451b68-ee10-4f70-8876-39fdf3886654)
 
 
+---
+
+## 📊 Monitoring
+
+
 The app is monitored using LangSmith.
 
 ![Langgraph Runs](artifacts/runs.png)
+
+---
+## 📝 Requirements
+
+The current version of the app is using [mlx- version](https://huggingface.co/mlx-community/medgemma-4b-it-4bit) of medgemma model. The app is run locally on a machine with 48 GB RAM and Apple M4 Max chip. 
 
 ---
 
