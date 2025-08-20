@@ -53,38 +53,28 @@ def build_icd10_prompt(clinical_note: str, image: Optional[Image]) -> list:
         list: A list of messages formatted for the model input.
     """
     image = Image.fromarray(np.zeros((224, 224, 3), dtype=np.uint8)) if image is None else image
-    prompt =f"""
-        You are an expert clinical coder. From the following medical note, 
-        identify the most relevant ICD-10 codes:
+    prompt = f"""
+    You are an expert clinical coder. Extract ICD-10 codes from the note below.
 
-        Instructions:
-        - Include all codes for all sections of the clinical note 
-        (complain, history and symptomps, diagnosis, plan
-        - Include a code only once
+    Instructions:
+    - Focus on disease, symptom, and condition codes (A00–R99)
+    - Avoid administrative or encounter codes (Z00–Z99) unless clinically significant
+    - Extract codes from "Diagnosis" and "History & Symptoms" sections
+    - Include each code only once with its description
+    - Return ONLY valid JSON: an array of objects with double quotes for all keys and values
+    - Do not include markdown, code fences, extra text, or repeated codes
+    - If unsure, omit rather than guessing
 
-        Given a clinical note, return a JSON array where each item contains:
-        - code: the ICD-10 code
-        - description: the ICD-10 description
+    Example:
+    [
+    {{"code": "K35.80", "description": "Acute appendicitis, unspecified"}},
+    {{"code": "R10.9", "description": "Abdominal pain, unspecified"}},
+    {{"code": "R11.0", "description": "Nausea"}}
+    ]
 
-        Return ONLY valid JSON with double quotes, no extra text, no markdown.
-        There should be no additional text or code fences. 
-        The response must be a valid JSON array of objects with double quotes around ALL property names and values.
-        If there is a code, make sure that there is a description for it. Don't return codes without descriptions.
-        Don't repeat codes that are very similar, only return the most relevant one.
-        Make sure that you are not repeating codes in the response.
-        Do not include any markdown, code fences, or extra text.
-
-        
-        Example:
-        [
-        {{"code": "XXX", "description": "YYYY"}},
-        {{"code": "XXX", "description": "YYYY"}}
-        ]
-
-        Here is the clinical note you need to analyze:
-        {clinical_note}
-        Image: {image if image else "No image provided"}
-
+    Clinical note:
+    {clinical_note}
+    Image: {image if image else "No image provided"}
     """
     return prompt
 
