@@ -1,0 +1,1378 @@
+[
+  {
+    "note": "Chief Complaint:\nThe patient presents with abdominal pain localized to the lower right quadrant, nausea, and low-grade fever for the past 24 hours.\n\nHistory & Symptoms:\n- Pain began near the umbilicus and migrated to the lower right abdomen\n- Mild nausea, no vomiting\n- Pain increases with movement or coughing\n- Temperature: 38.1\u00b0C (100.6\u00b0F)\n\nPhysical Exam:\n- Rebound tenderness in the right lower quadrant\n- Positive Rovsing\u2019s sign\n- No palpable masses\n\nDiagnosis:\n- Acute uncomplicated appendicitis\n\nPlan:\n- Schedule for laparoscopic appendectomy\n- Start IV fluids and antibiotics pre-op",
+    "icd10_codes": [
+      {
+        "code": "K35.80",
+        "description": "Acute appendicitis, unspecified"
+      },
+      {
+        "code": "R10.9",
+        "description": "Abdominal pain, unspecified"
+      },
+      {
+        "code": "R11.0",
+        "description": "Nausea"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient complains of persistent headache and blurred vision for the past 3 days.\n\nHistory & Symptoms:\n- Gradual onset headache, constant\n- Blurring of vision and photophobia\n- No recent trauma or infection\n- Temperature: 37.2\u00b0C (99\u00b0F)\n\nPhysical Exam:\n- Tenderness over temples\n- Visual acuity slightly reduced\n- No neurological deficits\n\nDiagnosis:\n- Migraine headache\n\nPlan:\n- Prescribe pain relief medication\n- Advise rest and hydration",
+    "icd10_codes": [
+      {
+        "code": "G43.909",
+        "description": "Migraine, unspecified, not intractable, without status migrainosus"
+      },
+      {
+        "code": "R51",
+        "description": "Headache"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with abdominal pain localized to the lower right quadrant, nausea, and low-grade fever for the past 24 hours.\n\nHistory & Symptoms:\n- Pain began near the umbilicus and migrated to the lower right abdomen\n- Mild nausea, no vomiting\n- Pain increases with movement or coughing\n- Temperature: 38.1\u00b0C (100.6\u00b0F)\n\nPhysical Exam:\n- Rebound tenderness in the right lower quadrant\n- Positive Rovsing\u2019s sign\n- No palpable masses\n\nDiagnosis:\n- Acute uncomplicated appendicitis\n\nPlan:\n- Schedule for laparoscopic appendectomy\n- Start IV fluids and antibiotics pre-op",
+    "icd10_codes": [
+      {
+        "code": "K35.80",
+        "description": "Acute appendicitis, unspecified"
+      },
+      {
+        "code": "R10.9",
+        "description": "Abdominal pain, unspecified"
+      },
+      {
+        "code": "R11.0",
+        "description": "Nausea"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with abdominal pain localized to the lower right quadrant, nausea, and low-grade fever for the past 24 hours.\n\nHistory & Symptoms:\n- Pain began near the umbilicus and migrated to the lower right abdomen\n- Mild nausea, no vomiting\n- Pain increases with movement or coughing\n- Temperature: 38.1\u00b0C (100.6\u00b0F)\n\nPhysical Exam:\n- Rebound tenderness in the right lower quadrant\n- Positive Rovsing\u2019s sign\n- No palpable masses\n\nDiagnosis:\n- Acute uncomplicated appendicitis\n\nPlan:\n- Schedule for laparoscopic appendectomy\n- Start IV fluids and antibiotics pre-op",
+    "icd10_codes": [
+      {
+        "code": "K35.80",
+        "description": "Acute appendicitis, unspecified"
+      },
+      {
+        "code": "R10.9",
+        "description": "Abdominal pain, unspecified"
+      },
+      {
+        "code": "R11.0",
+        "description": "Nausea"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with abdominal pain localized to the lower right quadrant, nausea, and low-grade fever for the past 24 hours.\n\nHistory & Symptoms:\n- Pain began near the umbilicus and migrated to the lower right abdomen\n- Mild nausea, no vomiting\n- Pain increases with movement or coughing\n- Temperature: 38.1\u00b0C (100.6\u00b0F)\n\nPhysical Exam:\n- Rebound tenderness in the right lower quadrant\n- Positive Rovsing\u2019s sign\n- No palpable masses\n\nDiagnosis:\n- Acute uncomplicated appendicitis\n\nPlan:\n- Schedule for laparoscopic appendectomy\n- Start IV fluids and antibiotics pre-op",
+    "icd10_codes": [
+      {
+        "code": "K35.80",
+        "description": "Acute appendicitis, unspecified"
+      },
+      {
+        "code": "R10.9",
+        "description": "Abdominal pain, unspecified"
+      },
+      {
+        "code": "R11.0",
+        "description": "Nausea"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient complains of persistent headache and blurred vision for the past 3 days.\n\nHistory & Symptoms:\n- Gradual onset headache, constant\n- Blurring of vision and photophobia\n- No recent trauma or infection\n- Temperature: 37.2\u00b0C (99\u00b0F)\n\nPhysical Exam:\n- Tenderness over temples\n- Visual acuity slightly reduced\n- No neurological deficits\n\nDiagnosis:\n- Migraine headache\n\nPlan:\n- Prescribe pain relief medication\n- Advise rest and hydration",
+    "icd10_codes": [
+      {
+        "code": "G43.909",
+        "description": "Migraine, unspecified, not intractable, without status migrainosus"
+      },
+      {
+        "code": "R51",
+        "description": "Headache"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with abdominal pain localized to the lower right quadrant, nausea, and low-grade fever for the past 24 hours.\n\nHistory & Symptoms:\n- Pain began near the umbilicus and migrated to the lower right abdomen\n- Mild nausea, no vomiting\n- Pain increases with movement or coughing\n- Temperature: 38.1\u00b0C (100.6\u00b0F)\n\nPhysical Exam:\n- Rebound tenderness in the right lower quadrant\n- Positive Rovsing\u2019s sign\n- No palpable masses\n\nDiagnosis:\n- Acute uncomplicated appendicitis\n\nPlan:\n- Schedule for laparoscopic appendectomy\n- Start IV fluids and antibiotics pre-op",
+    "icd10_codes": [
+      {
+        "code": "K35.80",
+        "description": "Acute appendicitis, unspecified"
+      },
+      {
+        "code": "R10.9",
+        "description": "Abdominal pain, unspecified"
+      },
+      {
+        "code": "R11.0",
+        "description": "Nausea"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with abdominal pain localized to the lower right quadrant, nausea, and low-grade fever for the past 24 hours.\n\nHistory & Symptoms:\n- Pain began near the umbilicus and migrated to the lower right abdomen\n- Mild nausea, no vomiting\n- Pain increases with movement or coughing\n- Temperature: 38.1\u00b0C (100.6\u00b0F)\n\nPhysical Exam:\n- Rebound tenderness in the right lower quadrant\n- Positive Rovsing\u2019s sign\n- No palpable masses\n\nDiagnosis:\n- Acute uncomplicated appendicitis\n\nPlan:\n- Schedule for laparoscopic appendectomy\n- Start IV fluids and antibiotics pre-op",
+    "icd10_codes": [
+      {
+        "code": "K35.80",
+        "description": "Acute appendicitis, unspecified"
+      },
+      {
+        "code": "R10.9",
+        "description": "Abdominal pain, unspecified"
+      },
+      {
+        "code": "R11.0",
+        "description": "Nausea"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient complains of persistent headache and blurred vision for the past 3 days.\n\nHistory & Symptoms:\n- Gradual onset headache, constant\n- Blurring of vision and photophobia\n- No recent trauma or infection\n- Temperature: 37.2\u00b0C (99\u00b0F)\n\nPhysical Exam:\n- Tenderness over temples\n- Visual acuity slightly reduced\n- No neurological deficits\n\nDiagnosis:\n- Migraine headache\n\nPlan:\n- Prescribe pain relief medication\n- Advise rest and hydration",
+    "icd10_codes": [
+      {
+        "code": "G43.909",
+        "description": "Migraine, unspecified, not intractable, without status migrainosus"
+      },
+      {
+        "code": "R51",
+        "description": "Headache"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient complains of persistent headache and blurred vision for the past 3 days.\n\nHistory & Symptoms:\n- Gradual onset headache, constant\n- Blurring of vision and photophobia\n- No recent trauma or infection\n- Temperature: 37.2\u00b0C (99\u00b0F)\n\nPhysical Exam:\n- Tenderness over temples\n- Visual acuity slightly reduced\n- No neurological deficits\n\nDiagnosis:\n- Migraine headache\n\nPlan:\n- Prescribe pain relief medication\n- Advise rest and hydration",
+    "icd10_codes": [
+      {
+        "code": "G43.909",
+        "description": "Migraine, unspecified, not intractable, without status migrainosus"
+      },
+      {
+        "code": "R51",
+        "description": "Headache"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with abdominal pain localized to the lower right quadrant, nausea, and low-grade fever for the past 24 hours.\n\nHistory & Symptoms:\n- Pain began near the umbilicus and migrated to the lower right abdomen\n- Mild nausea, no vomiting\n- Pain increases with movement or coughing\n- Temperature: 38.1\u00b0C (100.6\u00b0F)\n\nPhysical Exam:\n- Rebound tenderness in the right lower quadrant\n- Positive Rovsing\u2019s sign\n- No palpable masses\n\nDiagnosis:\n- Acute uncomplicated appendicitis\n\nPlan:\n- Schedule for laparoscopic appendectomy\n- Start IV fluids and antibiotics pre-op",
+    "icd10_codes": [
+      {
+        "code": "K35.80",
+        "description": "Acute appendicitis, unspecified"
+      },
+      {
+        "code": "R10.9",
+        "description": "Abdominal pain, unspecified"
+      },
+      {
+        "code": "R11.0",
+        "description": "Nausea"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with abdominal pain localized to the lower right quadrant, nausea, and low-grade fever for the past 24 hours.\n\nHistory & Symptoms:\n- Pain began near the umbilicus and migrated to the lower right abdomen\n- Mild nausea, no vomiting\n- Pain increases with movement or coughing\n- Temperature: 38.1\u00b0C (100.6\u00b0F)\n\nPhysical Exam:\n- Rebound tenderness in the right lower quadrant\n- Positive Rovsing\u2019s sign\n- No palpable masses\n\nDiagnosis:\n- Acute uncomplicated appendicitis\n\nPlan:\n- Schedule for laparoscopic appendectomy\n- Start IV fluids and antibiotics pre-op",
+    "icd10_codes": [
+      {
+        "code": "K35.80",
+        "description": "Acute appendicitis, unspecified"
+      },
+      {
+        "code": "R10.9",
+        "description": "Abdominal pain, unspecified"
+      },
+      {
+        "code": "R11.0",
+        "description": "Nausea"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with abdominal pain localized to the lower right quadrant, nausea, and low-grade fever for the past 24 hours.\n\nHistory & Symptoms:\n- Pain began near the umbilicus and migrated to the lower right abdomen\n- Mild nausea, no vomiting\n- Pain increases with movement or coughing\n- Temperature: 38.1\u00b0C (100.6\u00b0F)\n\nPhysical Exam:\n- Rebound tenderness in the right lower quadrant\n- Positive Rovsing\u2019s sign\n- No palpable masses\n\nDiagnosis:\n- Acute uncomplicated appendicitis\n\nPlan:\n- Schedule for laparoscopic appendectomy\n- Start IV fluids and antibiotics pre-op",
+    "icd10_codes": [
+      {
+        "code": "K35.80",
+        "description": "Acute appendicitis, unspecified"
+      },
+      {
+        "code": "R10.9",
+        "description": "Abdominal pain, unspecified"
+      },
+      {
+        "code": "R11.0",
+        "description": "Nausea"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient complains of persistent headache and blurred vision for the past 3 days.\n\nHistory & Symptoms:\n- Gradual onset headache, constant\n- Blurring of vision and photophobia\n- No recent trauma or infection\n- Temperature: 37.2\u00b0C (99\u00b0F)\n\nPhysical Exam:\n- Tenderness over temples\n- Visual acuity slightly reduced\n- No neurological deficits\n\nDiagnosis:\n- Migraine headache\n\nPlan:\n- Prescribe pain relief medication\n- Advise rest and hydration",
+    "icd10_codes": [
+      {
+        "code": "G43.909",
+        "description": "Migraine, unspecified, not intractable, without status migrainosus"
+      },
+      {
+        "code": "R51",
+        "description": "Headache"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient complains of persistent headache and blurred vision for the past 3 days.\n\nHistory & Symptoms:\n- Gradual onset headache, constant\n- Blurring of vision and photophobia\n- No recent trauma or infection\n- Temperature: 37.2\u00b0C (99\u00b0F)\n\nPhysical Exam:\n- Tenderness over temples\n- Visual acuity slightly reduced\n- No neurological deficits\n\nDiagnosis:\n- Migraine headache\n\nPlan:\n- Prescribe pain relief medication\n- Advise rest and hydration",
+    "icd10_codes": [
+      {
+        "code": "G43.909",
+        "description": "Migraine, unspecified, not intractable, without status migrainosus"
+      },
+      {
+        "code": "R51",
+        "description": "Headache"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with abdominal pain localized to the lower right quadrant, nausea, and low-grade fever for the past 24 hours.\n\nHistory & Symptoms:\n- Pain began near the umbilicus and migrated to the lower right abdomen\n- Mild nausea, no vomiting\n- Pain increases with movement or coughing\n- Temperature: 38.1\u00b0C (100.6\u00b0F)\n\nPhysical Exam:\n- Rebound tenderness in the right lower quadrant\n- Positive Rovsing\u2019s sign\n- No palpable masses\n\nDiagnosis:\n- Acute uncomplicated appendicitis\n\nPlan:\n- Schedule for laparoscopic appendectomy\n- Start IV fluids and antibiotics pre-op",
+    "icd10_codes": [
+      {
+        "code": "K35.80",
+        "description": "Acute appendicitis, unspecified"
+      },
+      {
+        "code": "R10.9",
+        "description": "Abdominal pain, unspecified"
+      },
+      {
+        "code": "R11.0",
+        "description": "Nausea"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with abdominal pain localized to the lower right quadrant, nausea, and low-grade fever for the past 24 hours.\n\nHistory & Symptoms:\n- Pain began near the umbilicus and migrated to the lower right abdomen\n- Mild nausea, no vomiting\n- Pain increases with movement or coughing\n- Temperature: 38.1\u00b0C (100.6\u00b0F)\n\nPhysical Exam:\n- Rebound tenderness in the right lower quadrant\n- Positive Rovsing\u2019s sign\n- No palpable masses\n\nDiagnosis:\n- Acute uncomplicated appendicitis\n\nPlan:\n- Schedule for laparoscopic appendectomy\n- Start IV fluids and antibiotics pre-op",
+    "icd10_codes": [
+      {
+        "code": "K35.80",
+        "description": "Acute appendicitis, unspecified"
+      },
+      {
+        "code": "R10.9",
+        "description": "Abdominal pain, unspecified"
+      },
+      {
+        "code": "R11.0",
+        "description": "Nausea"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with abdominal pain localized to the lower right quadrant, nausea, and low-grade fever for the past 24 hours.\n\nHistory & Symptoms:\n- Pain began near the umbilicus and migrated to the lower right abdomen\n- Mild nausea, no vomiting\n- Pain increases with movement or coughing\n- Temperature: 38.1\u00b0C (100.6\u00b0F)\n\nPhysical Exam:\n- Rebound tenderness in the right lower quadrant\n- Positive Rovsing\u2019s sign\n- No palpable masses\n\nDiagnosis:\n- Acute uncomplicated appendicitis\n\nPlan:\n- Schedule for laparoscopic appendectomy\n- Start IV fluids and antibiotics pre-op",
+    "icd10_codes": [
+      {
+        "code": "K35.80",
+        "description": "Acute appendicitis, unspecified"
+      },
+      {
+        "code": "R10.9",
+        "description": "Abdominal pain, unspecified"
+      },
+      {
+        "code": "R11.0",
+        "description": "Nausea"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient complains of persistent headache and blurred vision for the past 3 days.\n\nHistory & Symptoms:\n- Gradual onset headache, constant\n- Blurring of vision and photophobia\n- No recent trauma or infection\n- Temperature: 37.2\u00b0C (99\u00b0F)\n\nPhysical Exam:\n- Tenderness over temples\n- Visual acuity slightly reduced\n- No neurological deficits\n\nDiagnosis:\n- Migraine headache\n\nPlan:\n- Prescribe pain relief medication\n- Advise rest and hydration",
+    "icd10_codes": [
+      {
+        "code": "G43.909",
+        "description": "Migraine, unspecified, not intractable, without status migrainosus"
+      },
+      {
+        "code": "R51",
+        "description": "Headache"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with abdominal pain localized to the lower right quadrant, nausea, and low-grade fever for the past 24 hours.\n\nHistory & Symptoms:\n- Pain began near the umbilicus and migrated to the lower right abdomen\n- Mild nausea, no vomiting\n- Pain increases with movement or coughing\n- Temperature: 38.1\u00b0C (100.6\u00b0F)\n\nPhysical Exam:\n- Rebound tenderness in the right lower quadrant\n- Positive Rovsing\u2019s sign\n- No palpable masses\n\nDiagnosis:\n- Acute uncomplicated appendicitis\n\nPlan:\n- Schedule for laparoscopic appendectomy\n- Start IV fluids and antibiotics pre-op",
+    "icd10_codes": [
+      {
+        "code": "K35.80",
+        "description": "Acute appendicitis, unspecified"
+      },
+      {
+        "code": "R10.9",
+        "description": "Abdominal pain, unspecified"
+      },
+      {
+        "code": "R11.0",
+        "description": "Nausea"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient complains of persistent headache and blurred vision for the past 3 days.\n\nHistory & Symptoms:\n- Gradual onset headache, constant\n- Blurring of vision and photophobia\n- No recent trauma or infection\n- Temperature: 37.2\u00b0C (99\u00b0F)\n\nPhysical Exam:\n- Tenderness over temples\n- Visual acuity slightly reduced\n- No neurological deficits\n\nDiagnosis:\n- Migraine headache\n\nPlan:\n- Prescribe pain relief medication\n- Advise rest and hydration",
+    "icd10_codes": [
+      {
+        "code": "G43.909",
+        "description": "Migraine, unspecified, not intractable, without status migrainosus"
+      },
+      {
+        "code": "R51",
+        "description": "Headache"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with abdominal pain localized to the lower right quadrant, nausea, and low-grade fever for the past 24 hours.\n\nHistory & Symptoms:\n- Pain began near the umbilicus and migrated to the lower right abdomen\n- Mild nausea, no vomiting\n- Pain increases with movement or coughing\n- Temperature: 38.1\u00b0C (100.6\u00b0F)\n\nPhysical Exam:\n- Rebound tenderness in the right lower quadrant\n- Positive Rovsing\u2019s sign\n- No palpable masses\n\nDiagnosis:\n- Acute uncomplicated appendicitis\n\nPlan:\n- Schedule for laparoscopic appendectomy\n- Start IV fluids and antibiotics pre-op",
+    "icd10_codes": [
+      {
+        "code": "K35.80",
+        "description": "Acute appendicitis, unspecified"
+      },
+      {
+        "code": "R10.9",
+        "description": "Abdominal pain, unspecified"
+      },
+      {
+        "code": "R11.0",
+        "description": "Nausea"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient complains of persistent headache and blurred vision for the past 3 days.\n\nHistory & Symptoms:\n- Gradual onset headache, constant\n- Blurring of vision and photophobia\n- No recent trauma or infection\n- Temperature: 37.2\u00b0C (99\u00b0F)\n\nPhysical Exam:\n- Tenderness over temples\n- Visual acuity slightly reduced\n- No neurological deficits\n\nDiagnosis:\n- Migraine headache\n\nPlan:\n- Prescribe pain relief medication\n- Advise rest and hydration",
+    "icd10_codes": [
+      {
+        "code": "G43.909",
+        "description": "Migraine, unspecified, not intractable, without status migrainosus"
+      },
+      {
+        "code": "R51",
+        "description": "Headache"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient complains of persistent headache and blurred vision for the past 3 days.\n\nHistory & Symptoms:\n- Gradual onset headache, constant\n- Blurring of vision and photophobia\n- No recent trauma or infection\n- Temperature: 37.2\u00b0C (99\u00b0F)\n\nPhysical Exam:\n- Tenderness over temples\n- Visual acuity slightly reduced\n- No neurological deficits\n\nDiagnosis:\n- Migraine headache\n\nPlan:\n- Prescribe pain relief medication\n- Advise rest and hydration",
+    "icd10_codes": [
+      {
+        "code": "G43.909",
+        "description": "Migraine, unspecified, not intractable, without status migrainosus"
+      },
+      {
+        "code": "R51",
+        "description": "Headache"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with abdominal pain localized to the lower right quadrant, nausea, and low-grade fever for the past 24 hours.\n\nHistory & Symptoms:\n- Pain began near the umbilicus and migrated to the lower right abdomen\n- Mild nausea, no vomiting\n- Pain increases with movement or coughing\n- Temperature: 38.1\u00b0C (100.6\u00b0F)\n\nPhysical Exam:\n- Rebound tenderness in the right lower quadrant\n- Positive Rovsing\u2019s sign\n- No palpable masses\n\nDiagnosis:\n- Acute uncomplicated appendicitis\n\nPlan:\n- Schedule for laparoscopic appendectomy\n- Start IV fluids and antibiotics pre-op",
+    "icd10_codes": [
+      {
+        "code": "K35.80",
+        "description": "Acute appendicitis, unspecified"
+      },
+      {
+        "code": "R10.9",
+        "description": "Abdominal pain, unspecified"
+      },
+      {
+        "code": "R11.0",
+        "description": "Nausea"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with abdominal pain localized to the lower right quadrant, nausea, and low-grade fever for the past 24 hours.\n\nHistory & Symptoms:\n- Pain began near the umbilicus and migrated to the lower right abdomen\n- Mild nausea, no vomiting\n- Pain increases with movement or coughing\n- Temperature: 38.1\u00b0C (100.6\u00b0F)\n\nPhysical Exam:\n- Rebound tenderness in the right lower quadrant\n- Positive Rovsing\u2019s sign\n- No palpable masses\n\nDiagnosis:\n- Acute uncomplicated appendicitis\n\nPlan:\n- Schedule for laparoscopic appendectomy\n- Start IV fluids and antibiotics pre-op",
+    "icd10_codes": [
+      {
+        "code": "K35.80",
+        "description": "Acute appendicitis, unspecified"
+      },
+      {
+        "code": "R10.9",
+        "description": "Abdominal pain, unspecified"
+      },
+      {
+        "code": "R11.0",
+        "description": "Nausea"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports swelling and pain in the right knee after a fall.\n\nHistory & Symptoms:\n- Pain and swelling in right knee after fall\n- Difficulty walking\n- No prior knee injuries\n- Mild bruising observed\n\nPhysical Exam:\n- Swelling and tenderness in right knee\n- Limited range of motion\n- No open wounds\n\nDiagnosis:\n- Right knee contusion\n\nPlan:\n- Apply ice and compression\n- Advise rest and follow-up in 1 week",
+    "icd10_codes": [
+      {
+        "code": "S83.911A",
+        "description": "Sprain of unspecified ligament of right knee, initial encounter"
+      },
+      {
+        "code": "M25.561",
+        "description": "Pain in right knee"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with abdominal pain localized to the lower right quadrant, nausea, and low-grade fever for the past 24 hours.\n\nHistory & Symptoms:\n- Pain began near the umbilicus and migrated to the lower right abdomen\n- Mild nausea, no vomiting\n- Pain increases with movement or coughing\n- Temperature: 38.1\u00b0C (100.6\u00b0F)\n\nPhysical Exam:\n- Rebound tenderness in the right lower quadrant\n- Positive Rovsing\u2019s sign\n- No palpable masses\n\nDiagnosis:\n- Acute uncomplicated appendicitis\n\nPlan:\n- Schedule for laparoscopic appendectomy\n- Start IV fluids and antibiotics pre-op",
+    "icd10_codes": [
+      {
+        "code": "K35.80",
+        "description": "Acute appendicitis, unspecified"
+      },
+      {
+        "code": "R10.9",
+        "description": "Abdominal pain, unspecified"
+      },
+      {
+        "code": "R11.0",
+        "description": "Nausea"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient complains of persistent headache and blurred vision for the past 3 days.\n\nHistory & Symptoms:\n- Gradual onset headache, constant\n- Blurring of vision and photophobia\n- No recent trauma or infection\n- Temperature: 37.2\u00b0C (99\u00b0F)\n\nPhysical Exam:\n- Tenderness over temples\n- Visual acuity slightly reduced\n- No neurological deficits\n\nDiagnosis:\n- Migraine headache\n\nPlan:\n- Prescribe pain relief medication\n- Advise rest and hydration",
+    "icd10_codes": [
+      {
+        "code": "G43.909",
+        "description": "Migraine, unspecified, not intractable, without status migrainosus"
+      },
+      {
+        "code": "R51",
+        "description": "Headache"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with abdominal pain localized to the lower right quadrant, nausea, and low-grade fever for the past 24 hours.\n\nHistory & Symptoms:\n- Pain began near the umbilicus and migrated to the lower right abdomen\n- Mild nausea, no vomiting\n- Pain increases with movement or coughing\n- Temperature: 38.1\u00b0C (100.6\u00b0F)\n\nPhysical Exam:\n- Rebound tenderness in the right lower quadrant\n- Positive Rovsing\u2019s sign\n- No palpable masses\n\nDiagnosis:\n- Acute uncomplicated appendicitis\n\nPlan:\n- Schedule for laparoscopic appendectomy\n- Start IV fluids and antibiotics pre-op",
+    "icd10_codes": [
+      {
+        "code": "K35.80",
+        "description": "Acute appendicitis, unspecified"
+      },
+      {
+        "code": "R10.9",
+        "description": "Abdominal pain, unspecified"
+      },
+      {
+        "code": "R11.0",
+        "description": "Nausea"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient complains of persistent headache and blurred vision for the past 3 days.\n\nHistory & Symptoms:\n- Gradual onset headache, constant\n- Blurring of vision and photophobia\n- No recent trauma or infection\n- Temperature: 37.2\u00b0C (99\u00b0F)\n\nPhysical Exam:\n- Tenderness over temples\n- Visual acuity slightly reduced\n- No neurological deficits\n\nDiagnosis:\n- Migraine headache\n\nPlan:\n- Prescribe pain relief medication\n- Advise rest and hydration",
+    "icd10_codes": [
+      {
+        "code": "G43.909",
+        "description": "Migraine, unspecified, not intractable, without status migrainosus"
+      },
+      {
+        "code": "R51",
+        "description": "Headache"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient reports chest pain radiating to the left arm and shortness of breath for the last 2 hours.\n\nHistory & Symptoms:\n- Sudden onset chest pain, worsened by exertion\n- Shortness of breath and sweating\n- No previous history of heart disease\n- Blood pressure: 145/90 mmHg\n\nPhysical Exam:\n- Heart sounds: normal\n- Lungs clear to auscultation\n- No edema\n\nDiagnosis:\n- Acute myocardial infarction\n\nPlan:\n- Administer aspirin and nitroglycerin\n- Prepare for cardiac catheterization",
+    "icd10_codes": [
+      {
+        "code": "I21.9",
+        "description": "Acute myocardial infarction, unspecified"
+      },
+      {
+        "code": "R07.9",
+        "description": "Chest pain, unspecified"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with dizziness, palpitations, and mild shortness of breath for the last 24 hours.\n\nHistory & Symptoms:\n- Lightheadedness when standing up\n- Palpitations noted intermittently\n- No prior cardiac issues\n- Heart rate: 110 bpm\n\nPhysical Exam:\n- Mild pallor\n- Heart rate elevated\n- No edema or cyanosis\n\nDiagnosis:\n- Orthostatic hypotension\n\nPlan:\n- Monitor blood pressure and heart rate\n- Encourage slow positional changes",
+    "icd10_codes": [
+      {
+        "code": "I95.1",
+        "description": "Orthostatic hypotension"
+      },
+      {
+        "code": "R42",
+        "description": "Dizziness and giddiness"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient presents with abdominal pain localized to the lower right quadrant, nausea, and low-grade fever for the past 24 hours.\n\nHistory & Symptoms:\n- Pain began near the umbilicus and migrated to the lower right abdomen\n- Mild nausea, no vomiting\n- Pain increases with movement or coughing\n- Temperature: 38.1\u00b0C (100.6\u00b0F)\n\nPhysical Exam:\n- Rebound tenderness in the right lower quadrant\n- Positive Rovsing\u2019s sign\n- No palpable masses\n\nDiagnosis:\n- Acute uncomplicated appendicitis\n\nPlan:\n- Schedule for laparoscopic appendectomy\n- Start IV fluids and antibiotics pre-op",
+    "icd10_codes": [
+      {
+        "code": "K35.80",
+        "description": "Acute appendicitis, unspecified"
+      },
+      {
+        "code": "R10.9",
+        "description": "Abdominal pain, unspecified"
+      },
+      {
+        "code": "R11.0",
+        "description": "Nausea"
+      }
+    ]
+  },
+  {
+    "note": "Chief Complaint:\nThe patient complains of persistent headache and blurred vision for the past 3 days.\n\nHistory & Symptoms:\n- Gradual onset headache, constant\n- Blurring of vision and photophobia\n- No recent trauma or infection\n- Temperature: 37.2\u00b0C (99\u00b0F)\n\nPhysical Exam:\n- Tenderness over temples\n- Visual acuity slightly reduced\n- No neurological deficits\n\nDiagnosis:\n- Migraine headache\n\nPlan:\n- Prescribe pain relief medication\n- Advise rest and hydration",
+    "icd10_codes": [
+      {
+        "code": "G43.909",
+        "description": "Migraine, unspecified, not intractable, without status migrainosus"
+      },
+      {
+        "code": "R51",
+        "description": "Headache"
+      }
+    ]
+  }
+]
